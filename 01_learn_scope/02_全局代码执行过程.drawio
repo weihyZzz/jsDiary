@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ZRgNgkGBJunc0q0rqTIc" name="Page-1">
-        <mxGraphModel dx="1376" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+        <mxGraphModel dx="1225" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,10 +10,10 @@
                 <mxCell id="3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ECStack&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="285" y="70" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="7">
+                <mxCell id="11" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="4" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="8">
+                <mxCell id="12" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="4" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -31,8 +31,14 @@
                 <mxCell id="9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;开始执行代码&lt;br&gt;var name = &quot;why&quot;&lt;br&gt;console.log(num1)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="320" y="500" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;在创建GO时，将全局定义的变量&lt;br&gt;name,num1,num2,result放入其中，值为undefined&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="13" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;在创建GO时，将全局定义的变量&lt;br&gt;name,num1,num2,result放入其中，值为undefined&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="570" y="190" width="560" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;{&lt;br&gt;name: &quot;why&quot;&lt;br&gt;num1: undefined&lt;br&gt;num2: undefined&lt;br&gt;result: undefined&lt;br&gt;}&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="340" width="210" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;GlobalObject&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="955" y="300" width="130" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
